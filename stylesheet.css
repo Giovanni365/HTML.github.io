@@ -1,0 +1,110 @@
+header {
+    height: 180px;
+    width: 100%;
+    text-align: center; 
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.Header-List li{
+    float: left;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Top-Wrapper {
+    text-align: center;
+    height: 200px;
+    background-color:lightgray;
+    padding: 75px 50px 0 50px;
+}
+.Top-Wrapper h2 {
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    background-color: dodgerblue;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.Lesson-Wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+}
+
+.Heading {
+    padding-top: 20px;
+}
+
+.box {
+    float:left;
+    width: 25%;
+    padding: 5px 5px;
+    background-color:dodgerblue;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: #dee7ec;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 30px;
+  }
+
+.Footer-List {
+    border-bottom: 2px solid #dee7ec;
+}
+
+.Footer-Logo {
+    float: left;
+}
+
+.Course-List {
+    float: right;
+    display: flex;
+    text-align: right;
+}
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.Course-List li {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.menu-icon {
+    color: black;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
