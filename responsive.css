@@ -1,0 +1,27 @@
+@media (max-width: 670px) {
+    .box {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .Header-List {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+    }
+    
+    .Course {
+        text-align: left;
+    }
+
+}
